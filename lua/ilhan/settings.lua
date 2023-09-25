@@ -26,12 +26,12 @@ local options = {
   number = true,                          
   relativenumber = true,                  
   numberwidth = 4,                        
-  signcolumn = "no",                      
+  signcolumn = "yes",                      
   wrap = false,                            
   scrolloff = 8,                           
   sidescrolloff = 8,
   laststatus = 0,                          
-  -- colorcolumn = "80"
+  colorcolumn = "80"
 }
 
 vim.opt.shortmess:append "c"
