@@ -12,13 +12,4 @@ require("nvim-tree").setup({
   },
 })
 
-require("nvim-web-devicons").set_icon {
-  go = {
-    icon = "󰟓 ",
-    color = "#428850",
-    cterm_color = "65",
-    name = "Go"
-  }
-}
-
 vim.api.nvim_set_keymap('n', '<leader>e', ':NvimTreeToggle<CR>', {noremap = true, silent = true}) 
