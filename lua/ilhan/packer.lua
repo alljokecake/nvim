@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
       'nvim-tree/nvim-tree.lua',
       requires = {'nvim-tree/nvim-web-devicons'}
     }
-    use {'ellisonleao/gruvbox.nvim'}
+    use {'rose-pine/neovim', as = 'rose-pine'}
 
     use {
       'VonHeikemen/lsp-zero.nvim',
