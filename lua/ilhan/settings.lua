@@ -31,7 +31,7 @@ local options = {
   scrolloff = 8,                           
   sidescrolloff = 8,
   laststatus = 0,                          
-  colorcolumn = "80"
+  -- colorcolumn = "80"
 }
 
 vim.opt.shortmess:append "c"
