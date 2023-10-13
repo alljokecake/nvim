@@ -21,10 +21,7 @@ local options = {
   expandtab = true,                       
   shiftwidth = 2,                         
   tabstop = 2,                            
-  cursorline = true,                     
   cursorlineopt = "number",
-  number = true,                          
-  relativenumber = true,                  
   numberwidth = 4,                        
   signcolumn = "yes",                      
   wrap = false,                            
@@ -34,12 +31,11 @@ local options = {
   -- colorcolumn = "80"
 }
 
-vim.opt.shortmess:append "c"
-
 for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+vim.opt.shortmess:append "c"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set guicursor=i:block]]
