@@ -14,10 +14,12 @@ function Z(bool)
     for k, _ in pairs(zen) do
       vim.opt[k] = false
     end
+    vim.opt.signcolumn = "no"
   else
     for k, v in pairs(zen) do
       vim.opt[k] = v 
     end
+    vim.opt.signcolumn = "yes"
   end
 end
 
