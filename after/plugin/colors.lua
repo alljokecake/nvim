@@ -10,6 +10,7 @@ require('rose-pine').setup({
 
 require('gruvbox').setup({
   transparent_mode = true,
+  bold = false,
   italic = {
     strings = false,
     emphasis= false,
