@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
     use ({'rose-pine/neovim', as = 'rose-pine'})
 
     use 'schlanqe/serene.nvim'
+    use 'ellisonleao/gruvbox.nvim'
 
     use {
       'VonHeikemen/lsp-zero.nvim',
