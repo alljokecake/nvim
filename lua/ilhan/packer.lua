@@ -4,6 +4,11 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     use 'theprimeagen/vim-be-good'
+
+    use {
+	    'theprimeagen/harpoon',
+	    requires = { {'nvim-lua/plenary.nvim'} }
+    }
     
     use {
 	    'nvim-telescope/telescope.nvim', tag = '0.1.2',
