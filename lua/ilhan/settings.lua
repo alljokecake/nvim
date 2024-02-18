@@ -23,15 +23,15 @@ local options = {
   tabstop = 4,
   -- cursorline = true,
   -- cursorlineopt = "number",
-  numberwidth = 5,
+  numberwidth = 4,
   signcolumn = "yes",
   wrap = false,
   scrolloff = 8,
   sidescrolloff = 8,
-  laststatus = 0,
+  laststatus = 2,
   number = true,
   relativenumber = true,
-  colorcolumn = "80"
+  -- colorcolumn = "80"
 }
 
 for k, v in pairs(options) do
