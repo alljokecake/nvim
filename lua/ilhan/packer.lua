@@ -22,9 +22,8 @@ return require('packer').startup(function(use)
       requires = {'nvim-tree/nvim-web-devicons'}
     }
 
-    use ({'rose-pine/neovim', as = 'rose-pine'})
+    use ({'alljokecake/naysayer-theme.nvim', as = 'naysayer'})
 
-    use 'schlanqe/serene.nvim'
     use 'ellisonleao/gruvbox.nvim'
 
     use {

@@ -7,13 +7,13 @@ require("nvim-tree").setup({
     renderer = {
         icons = {
             show = {
-                file = true,
-                folder = true,
+                file = false,
+                folder = false,
             },
         },
     },
     filters = {
-        git_ignored = true,
+        git_ignored = false,
         dotfiles = false,
     },
 })
