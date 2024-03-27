@@ -29,8 +29,8 @@ local options = {
   scrolloff = 8,
   sidescrolloff = 8,
   laststatus = 2,
-  number = false,
-  relativenumber = false,
+  number = true,
+  relativenumber = true,
   colorcolumn = "80"
 }
 

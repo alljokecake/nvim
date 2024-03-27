@@ -3,8 +3,6 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
-    use 'theprimeagen/vim-be-good'
-
     use {
 	    'theprimeagen/harpoon',
 	    requires = { {'nvim-lua/plenary.nvim'} }
@@ -21,10 +19,6 @@ return require('packer').startup(function(use)
       'nvim-tree/nvim-tree.lua',
       requires = {'nvim-tree/nvim-web-devicons'}
     }
-
-    use ({'alljokecake/naysayer-theme.nvim', as = 'naysayer'})
-
-    use 'ellisonleao/gruvbox.nvim'
 
     use {
       'VonHeikemen/lsp-zero.nvim',
