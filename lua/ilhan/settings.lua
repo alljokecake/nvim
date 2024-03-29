@@ -40,7 +40,7 @@ end
 
 vim.opt.shortmess:append "c"
 vim.cmd "set whichwrap+=<,>,[,],h,l"
-vim.cmd [[set iskeyword+=-]]
+-- vim.cmd [[set iskeyword+=-]] //@redundant?
 vim.cmd [[set guicursor=i:block]]
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true}) 
