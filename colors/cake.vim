@@ -21,7 +21,7 @@ hi Function	guifg=#d0c5a9
 hi Visual guifg=#333333 guibg=#82aaa3
 hi Cursor guifg=#333333 guibg=#f0e68c gui=NONE cterm=NONE
 hi Constant	guifg=#D4BC7D
-hi Todo	guifg=#333333 guibg=#cd853f
+hi Todo	guifg=#86e08f
 hi Operator	guifg=#cd5c5c
 hi Identifier guifg=#d0c5a9
 hi Repeat	 guifg=#cd5c5c

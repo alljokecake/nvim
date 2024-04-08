@@ -31,7 +31,8 @@ local options = {
   laststatus = 2,
   number = true,
   relativenumber = true,
-  colorcolumn = "80"
+  colorcolumn = "80",
+  guicursor = "",
 }
 
 for k, v in pairs(options) do
@@ -39,8 +40,5 @@ for k, v in pairs(options) do
 end
 
 vim.opt.shortmess:append "c"
-vim.cmd "set whichwrap+=<,>,[,],h,l"
--- vim.cmd [[set iskeyword+=-]] //@redundant?
-vim.cmd [[set guicursor=i:block]]
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true}) 
