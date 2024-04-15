@@ -21,8 +21,8 @@ local options = {
   expandtab = true,
   shiftwidth = 4,
   tabstop = 4,
-  -- cursorline = true,
-  -- cursorlineopt = "number",
+  cursorline = false,
+  cursorlineopt = "number",
   numberwidth = 4,
   signcolumn = "no",
   wrap = false,
@@ -39,6 +39,5 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
-vim.opt.shortmess:append "c"
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true}) 

@@ -21,7 +21,7 @@ hi Function	guifg=#d0c5a9
 hi Visual guifg=#333333 guibg=#82aaa3
 hi Cursor guifg=#333333 guibg=#f0e68c gui=NONE cterm=NONE
 hi Constant	guifg=#D4BC7D
-hi Todo	guifg=#86e08f
+hi Todo	guifg=#86e08f guibg=NONE
 hi Operator	guifg=#cd5c5c
 hi Identifier guifg=#d0c5a9
 hi Repeat	 guifg=#cd5c5c
@@ -59,4 +59,10 @@ hi link Tag		Special
 hi link SpecialChar	Special
 hi link Delimiter	Special
 hi link SpecialComment Special
-hi link Debug		Special
+
+hi link @comment Comment
+hi link @comment.documentation Comment 
+hi link @comment.todo Todo 
+hi link @comment.error Todo 
+hi link @comment.warning Todo 
+hi link @comment.note Todo 
