@@ -1,3 +1,7 @@
+" TODO: 
+" Rewrite it in lua.
+" Use rose-pine* as reference.
+
 set background=dark
 hi clear
 if exists("syntax_on")
