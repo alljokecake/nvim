@@ -1,4 +1,4 @@
-" TODO: 
+" TODO:
 " Rewrite it in lua.
 " Use rose-pine* as reference.
 
@@ -13,7 +13,8 @@ hi Normal guifg=#FFFFFF guibg=#10191F
 hi SignColumn guibg=#10191F
 hi NonText guifg=#15212A
 hi LineNr guifg=#87919D 
-hi CursorLineNr guifg=#FFFFFF gui=NONE
+hi CursorLineNr guifg=#87919D gui=BOLD
+hi CursorLine guibg=#242e33 gui=NONE
 hi StatusLine guifg=#333333 guibg=#c2bfa5 gui=NONE cterm=NONE
 hi Comment guifg=#87919D guibg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE guibg=#15212A gui=NONE cterm=NONE
