@@ -1,4 +1,4 @@
-" TODO:
+" TODO(ilhan):
 " Rewrite it in lua.
 " Use rose-pine* as reference.
 
@@ -9,7 +9,7 @@ if exists("syntax_on")
 endif
 let g:colors_name = "cake"
 
-hi Normal guifg=#FFFFFF guibg=#10191F
+hi Normal guifg=#DBDAD3 guibg=#10191F
 hi SignColumn guibg=#10191F
 hi NonText guifg=#15212A
 hi LineNr guifg=#87919D 
