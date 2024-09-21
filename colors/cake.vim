@@ -29,10 +29,11 @@ hi Constant	guifg=#D4BC7D
 hi Todo	guifg=#86e08f guibg=NONE
 hi Operator	guifg=#cd5c5c
 hi Identifier guifg=#d0c5a9
-hi Repeat	 guifg=#cd5c5c
-hi Statement guifg=#aa4444 gui=bold
+hi Repeat	 guifg=#ad5e53
+hi Statement guifg=#cd5c5c gui=NONE
+hi Keyword guifg=#cd5c5c gui=NONE
 hi PreProc	guifg=#cd853f
-hi Special	guifg=#cd5c5c
+hi Special	guifg=#a1484c
 hi VertSplit guifg=#7f7f8c guibg=#c2bfa5 gui=NONE cterm=NONE
 hi WinSeparator guibg=NONE guifg=#15212A
 hi Pmenu        guifg=#FFFFFF guibg=#15212A
@@ -51,7 +52,6 @@ hi link Boolean	Constant
 hi link Float		Number
 hi link Conditional	Repeat
 hi link Label		Statement
-hi link Keyword	Statement
 hi link Exception	Statement
 hi link Include	PreProc
 hi link Define	PreProc
