@@ -1,5 +1,5 @@
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "rust", "lua", "vim", "vimdoc", "comment" },
+  ensure_installed = { "javascript", "typescript", "rust", "lua", "vim", "vimdoc", },
 
   sync_install = false,
 
