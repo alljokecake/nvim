@@ -62,7 +62,7 @@ hi link Structure	Type
 hi link Typedef	Type
 hi link Tag		Special
 hi link SpecialChar	Special
-hi link Delimiter	Special
+hi link Delimiter Special
 hi link SpecialComment Special
 
 hi link @comment Comment
