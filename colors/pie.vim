@@ -1,4 +1,4 @@
-" TODO: Create the best colorscheme ever.
+" TODO: Rewrite in lua.
 
 set background=dark
 hi clear
@@ -21,7 +21,7 @@ hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	    guibg=#c2bfa5 guifg=grey50 gui=none
 hi VertSplit	    guifg=grey25 gui=BOLD
 hi IncSearch	    guifg=slategrey guibg=khaki
-hi ColorColumn      guibg=grey21
+hi ColorColumn      guibg=grey20
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi Search	        guibg=grey30 guifg=#dfffdf
@@ -31,10 +31,10 @@ hi Visual	        gui=none guifg=khaki guibg=olivedrab
 hi MatchParen       guibg=grey30 guifg=#dfffdf
 hi Comment	        guifg=SkyBlue
 hi Constant	        guifg=#ffa0a0 gui=NONE
-hi Identifier	    guifg=palegreen gui=NONE
+hi Identifier	    guifg=#7db082 gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
-hi Type		        guifg=darkkhaki gui=NONE
+hi Type		        guifg=peru gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             guifg=orangered guibg=NONE
 hi Directory        guifg=navajowhite
