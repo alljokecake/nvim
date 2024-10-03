@@ -31,13 +31,15 @@ hi Visual	        gui=none guifg=khaki guibg=olivedrab
 hi MatchParen       guibg=grey30 guifg=#dfffdf
 hi Comment	        guifg=SkyBlue
 hi Constant	        guifg=#ffa0a0 gui=NONE
+hi String	        guifg=#ffa0a0 gui=NONE
 hi Identifier	    guifg=#7db082 gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
 hi Type		        guifg=peru gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
-hi Todo             guifg=orangered guibg=NONE
+hi Todo             guifg=orangered guibg=NONE gui=NONE
 hi Directory        guifg=navajowhite
+hi Function         guifg=indianred
 
 hi Pmenu            guifg=#FFFFFF guibg=grey14
 hi PmenuSel         guifg=navajowhite guibg=olivedrab
