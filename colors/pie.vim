@@ -39,7 +39,7 @@ hi Type		        guifg=peru gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             guifg=orangered guibg=NONE gui=NONE
 hi Directory        guifg=navajowhite
-hi Function         guifg=indianred
+hi Function         guifg=#7db082
 
 hi Pmenu            guifg=#FFFFFF guibg=grey14
 hi PmenuSel         guifg=navajowhite guibg=olivedrab
@@ -88,3 +88,5 @@ hi link @comment.todo Todo
 hi link @comment.error Todo 
 hi link @comment.warning Todo 
 hi link @comment.note Todo 
+
+hi @lsp.type.macro guifg=indianred gui=NONE
