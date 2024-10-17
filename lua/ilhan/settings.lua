@@ -27,10 +27,11 @@ local options = {
   wrap = false,
   scrolloff = 8,
   sidescrolloff = 8,
-  laststatus = 1,
+  laststatus = 2,
   number = true,
   relativenumber = true,
   colorcolumn = "80",
+  textwidth = 80,
   guicursor = "",
 }
 
@@ -38,5 +39,10 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+vim.cmd("set fo-=t")
+vim.cmd("set fo+=q")
+vim.cmd("set history=100")
+
 vim.g.mapleader = " "
-vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true, silent = true}) 
+vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true,
+silent = true}) 
