@@ -8,7 +8,7 @@ endif
 
 let g:colors_name="pie"
 
-hi Normal	        guifg=White guibg=grey15
+hi Normal	        guifg=White guibg=#242424
 hi NonText	        guifg=grey30
 
 hi SignColumn       guibg=grey20
