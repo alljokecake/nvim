@@ -50,37 +50,37 @@ hi DiagnosticError  guifg=red
 hi DiagnosticHint   guifg=none
 hi DiagnosticInfo   guifg=navajowhite
 hi DiagnosticOk     guifg=white
-hi DiagnosticWarn   guifg=orangered
+hi DiagnosticWarn   guifg=#f6cd8b
 
 hi DiagnosticDefaultError   guifg=red
 hi DiagnosticDefaultHint    guifg=none
 hi DiagnosticDefaultInfo    guifg=navajowhite
 hi DiagnosticDefaultOk      guifg=white
-hi DiagnosticDefaultWarn    guifg=orangered
+hi DiagnosticDefaultWarn    guifg=#f6cd8b
 
 hi DiagnosticUnderlineError  guifg=red           
 hi DiagnosticUnderlineHint   guifg=none          
 hi DiagnosticUnderlineInfo   guifg=navajowhite   
 hi DiagnosticUnderlineOk     guifg=white
-hi DiagnosticUnderlineWarn   guifg=orangered
+hi DiagnosticUnderlineWarn   guifg=#f6cd8b
 
 hi DiagnosticFloatingError guifg=red
 hi DiagnosticFloatingHint guifg=none
 hi DiagnosticFloatingInfo guifg=navajowhite
 hi DiagnosticFloatingOk guifg=white
-hi DiagnosticFloatingWarn guifg=orangered
+hi DiagnosticFloatingWarn guifg=#f6cd8b
 
 hi DiagnosticVirtualTextError guifg=red
 hi DiagnosticVirtualTextHint guifg=none
 hi DiagnosticVirtualTextInfo guifg=navajowhite
 hi DiagnosticVirtualTextOk guifg=white
-hi DiagnosticVirtualTextWarn guifg=orangered
+hi DiagnosticVirtualTextWarn guifg=#f6cd8b
 
 hi DiagnosticSignError guifg=red
 hi DiagnosticSignHint guifg=none
 hi DiagnosticSignInfo guifg=navajowhite
 hi DiagnosticSignOk guifg=white
-hi DiagnosticSignWarn guifg=orangered
+hi DiagnosticSignWarn guifg=#f6cd8b
 
 hi link @comment Comment
 hi link @comment.documentation Comment 
