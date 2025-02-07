@@ -19,6 +19,7 @@ hi CursorLine       guibg=grey30
 
 hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	    guibg=#c2bfa5 guifg=grey50 gui=none
+hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=slategrey guibg=khaki
 hi ColorColumn      guibg=grey16
