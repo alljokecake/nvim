@@ -19,25 +19,26 @@ hi CursorLine       guibg=grey30
 
 hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	    guibg=#c2bfa5 guifg=grey50 gui=none
-hi VertSplit	    guifg=grey25 gui=BOLD
+hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=slategrey guibg=khaki
-hi ColorColumn      guibg=grey20
+hi ColorColumn      guibg=grey16
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi Search	        guibg=grey30 guifg=#dfffdf
 hi SpecialKey	    guifg=yellowgreen
 hi Title	        guifg=indianred
-hi Visual	        gui=none guifg=khaki guibg=olivedrab
+hi Visual	        gui=none guifg=#c2bfa5 guibg=olivedrab
 hi MatchParen       guibg=grey30 guifg=#dfffdf
-hi Comment	        guifg=SkyBlue
-hi Constant	        guifg=#ffa0a0 gui=NONE
-hi String	        guifg=#ffa0a0 gui=NONE
+hi Comment	        guifg=grey50
+hi Constant	        guifg=#81a85d gui=NONE
+hi String	        guifg=#81a85d gui=NONE
 hi Identifier	    guifg=#7db082 gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
-hi Type		        guifg=peru gui=NONE
+hi Type		        guifg=#d17d54 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
-hi Todo             guifg=orangered guibg=NONE gui=NONE
+" hi Todo             guifg=#ba4a46 guibg=NONE gui=NONE
+hi Todo             gui=NONE
 hi Directory        guifg=navajowhite
 hi Function         guifg=#7db082
 
