@@ -21,11 +21,11 @@ hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
 hi StatusLineNC	    guibg=#c2bfa5 guifg=grey50 gui=none
 hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
-hi IncSearch	    guifg=slategrey guibg=khaki
+hi IncSearch	    guifg=black guibg=khaki
 hi ColorColumn      guibg=grey16
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
-hi Search	        guibg=grey30 guifg=#dfffdf
+hi Search	        guibg=grey30 guifg=white
 hi SpecialKey	    guifg=yellowgreen
 hi Title	        guifg=indianred
 hi Visual	        gui=none guifg=#c2bfa5 guibg=olivedrab
