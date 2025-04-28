@@ -1,3 +1,3 @@
 require "ilhan.settings"
-require "ilhan.remap"
+require "ilhan.keymaps"
 require "ilhan.packer"

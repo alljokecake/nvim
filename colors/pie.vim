@@ -38,10 +38,10 @@ hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
 hi Type		        guifg=#d17d54 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
-" hi Todo             guifg=#ba4a46 guibg=NONE gui=NONE
 hi Todo             gui=NONE
 hi Directory        guifg=navajowhite
 hi Function         guifg=#7db082
+hi QuickFixLine		guibg=#d17d54 guifg=navajowhite gui=NONE
 
 hi Pmenu            guifg=#FFFFFF guibg=grey14
 hi PmenuSel         guifg=navajowhite guibg=olivedrab
