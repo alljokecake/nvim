@@ -3,6 +3,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
+    use 'laytan/cloak.nvim'
+
     use {
 	    'theprimeagen/harpoon',
 	    requires = { {'nvim-lua/plenary.nvim'} }
@@ -19,8 +21,8 @@ return require('packer').startup(function(use)
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v3.x',
       requires = {
-        {'williamboman/mason.nvim'},
-        {'williamboman/mason-lspconfig.nvim'},
+        {'mason-org/mason.nvim'},
+        {'mason-org/mason-lspconfig.nvim'},
         {'neovim/nvim-lspconfig'},
         {'hrsh7th/nvim-cmp'},
         {'hrsh7th/cmp-nvim-lsp'},
