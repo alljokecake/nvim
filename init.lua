@@ -1,3 +1,4 @@
 require "ilhan.settings"
 require "ilhan.keymaps"
-require "ilhan.packer"
+require "ilhan.colors"
+require "ilhan.lazy"

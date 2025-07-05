@@ -48,41 +48,48 @@ hi PmenuSel         guifg=navajowhite guibg=olivedrab
 hi PmenuThumb       guibg=#cccccc
 hi PmenuSbar        guibg=grey12
 
-hi DiagnosticError  guifg=red
-hi DiagnosticHint   guifg=none
-hi DiagnosticInfo   guifg=navajowhite
-hi DiagnosticOk     guifg=white
-hi DiagnosticWarn   guifg=#f6cd8b
+hi NormalFloat    guibg=#1e1e1e
+hi FloatBorder    guibg=#242424 guifg=#cccccc
 
-hi DiagnosticDefaultError   guifg=red
-hi DiagnosticDefaultHint    guifg=none
-hi DiagnosticDefaultInfo    guifg=navajowhite
-hi DiagnosticDefaultOk      guifg=white
-hi DiagnosticDefaultWarn    guifg=#f6cd8b
+" hi DiagnosticError  guifg=red
+" hi DiagnosticHint   guifg=none
+" hi DiagnosticInfo   guifg=navajowhite
+" hi DiagnosticOk     guifg=white
+" hi DiagnosticWarn   guifg=#f6cd8b
+" 
+" hi DiagnosticDefaultError   guifg=red
+" hi DiagnosticDefaultHint    guifg=none
+" hi DiagnosticDefaultInfo    guifg=navajowhite
+" hi DiagnosticDefaultOk      guifg=white
+" hi DiagnosticDefaultWarn    guifg=#f6cd8b
+" 
+" hi DiagnosticUnderlineError  guifg=red           
+" hi DiagnosticUnderlineHint   guifg=none          
+" hi DiagnosticUnderlineInfo   guifg=navajowhite   
+" hi DiagnosticUnderlineOk     guifg=white
+" hi DiagnosticUnderlineWarn   guifg=#f6cd8b
+" 
+" hi DiagnosticFloatingError guifg=red
+" hi DiagnosticFloatingHint guifg=none
+" hi DiagnosticFloatingInfo guifg=navajowhite
+" hi DiagnosticFloatingOk guifg=white
+" hi DiagnosticFloatingWarn guifg=#f6cd8b
+" 
+" hi DiagnosticVirtualTextError guifg=red
+" hi DiagnosticVirtualTextHint guifg=none
+" hi DiagnosticVirtualTextInfo guifg=navajowhite
+" hi DiagnosticVirtualTextOk guifg=white
+" hi DiagnosticVirtualTextWarn guifg=#f6cd8b
+" 
+" hi DiagnosticSignError guifg=red
+" hi DiagnosticSignHint guifg=none
+" hi DiagnosticSignInfo guifg=navajowhite
+" hi DiagnosticSignOk guifg=white
+" hi DiagnosticSignWarn guifg=#f6cd8b
 
-hi DiagnosticUnderlineError  guifg=red           
-hi DiagnosticUnderlineHint   guifg=none          
-hi DiagnosticUnderlineInfo   guifg=navajowhite   
-hi DiagnosticUnderlineOk     guifg=white
-hi DiagnosticUnderlineWarn   guifg=#f6cd8b
 
-hi DiagnosticFloatingError guifg=red
-hi DiagnosticFloatingHint guifg=none
-hi DiagnosticFloatingInfo guifg=navajowhite
-hi DiagnosticFloatingOk guifg=white
-hi DiagnosticFloatingWarn guifg=#f6cd8b
-
-hi DiagnosticVirtualTextError guifg=red
-hi DiagnosticVirtualTextHint guifg=none
-hi DiagnosticVirtualTextInfo guifg=navajowhite
-hi DiagnosticVirtualTextOk guifg=white
-hi DiagnosticVirtualTextWarn guifg=#f6cd8b
-
-hi DiagnosticSignError guifg=red
-hi DiagnosticSignHint guifg=none
-hi DiagnosticSignInfo guifg=navajowhite
-hi DiagnosticSignOk guifg=white
-hi DiagnosticSignWarn guifg=#f6cd8b
+" Telescope
+hi link TelescopeNormal LineNr
 
 hi link @comment Comment
 hi link @comment.documentation Comment 

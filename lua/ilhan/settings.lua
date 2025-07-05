@@ -43,6 +43,15 @@ vim.cmd("set fo-=t")
 vim.cmd("set fo+=q")
 vim.cmd("set history=100")
 
+-- TODO: Make it global
+-- vim.opt_local.formatoptions:remove "o"
+
+-- Netrw
+vim.g.netrw_browse_split = 0
+vim.g.netrw_banner = 0
+vim.g.netrw_winsize = 25
+
+
 vim.g.mapleader = " "
 vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true,
 silent = true}) 
