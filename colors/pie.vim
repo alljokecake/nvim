@@ -51,41 +51,47 @@ hi PmenuSbar        guibg=grey12
 hi NormalFloat    guibg=#1e1e1e
 hi FloatBorder    guibg=#242424 guifg=#cccccc
 
-" hi DiagnosticError  guifg=red
-" hi DiagnosticHint   guifg=none
-" hi DiagnosticInfo   guifg=navajowhite
-" hi DiagnosticOk     guifg=white
-" hi DiagnosticWarn   guifg=#f6cd8b
-" 
-" hi DiagnosticDefaultError   guifg=red
-" hi DiagnosticDefaultHint    guifg=none
-" hi DiagnosticDefaultInfo    guifg=navajowhite
-" hi DiagnosticDefaultOk      guifg=white
-" hi DiagnosticDefaultWarn    guifg=#f6cd8b
-" 
-" hi DiagnosticUnderlineError  guifg=red           
-" hi DiagnosticUnderlineHint   guifg=none          
-" hi DiagnosticUnderlineInfo   guifg=navajowhite   
-" hi DiagnosticUnderlineOk     guifg=white
-" hi DiagnosticUnderlineWarn   guifg=#f6cd8b
-" 
-" hi DiagnosticFloatingError guifg=red
-" hi DiagnosticFloatingHint guifg=none
-" hi DiagnosticFloatingInfo guifg=navajowhite
-" hi DiagnosticFloatingOk guifg=white
-" hi DiagnosticFloatingWarn guifg=#f6cd8b
-" 
-" hi DiagnosticVirtualTextError guifg=red
-" hi DiagnosticVirtualTextHint guifg=none
-" hi DiagnosticVirtualTextInfo guifg=navajowhite
-" hi DiagnosticVirtualTextOk guifg=white
-" hi DiagnosticVirtualTextWarn guifg=#f6cd8b
-" 
-" hi DiagnosticSignError guifg=red
-" hi DiagnosticSignHint guifg=none
-" hi DiagnosticSignInfo guifg=navajowhite
-" hi DiagnosticSignOk guifg=white
-" hi DiagnosticSignWarn guifg=#f6cd8b
+" Basic
+hi DiagnosticError        guifg=#e05f5f
+hi DiagnosticWarn         guifg=#e6b450
+hi DiagnosticInfo         guifg=#d0b57d
+hi DiagnosticHint         guifg=#8d9f6a
+hi DiagnosticOk           guifg=#ddddcc
+
+" Default
+hi DiagnosticDefaultError guifg=#e05f5f
+hi DiagnosticDefaultWarn  guifg=#e6b450
+hi DiagnosticDefaultInfo  guifg=#d0b57d
+hi DiagnosticDefaultHint  guifg=#8d9f6a
+hi DiagnosticDefaultOk    guifg=#ddddcc
+
+" Virtual Text
+hi DiagnosticVirtualTextError guifg=#e05f5f
+hi DiagnosticVirtualTextWarn  guifg=#e6b450
+hi DiagnosticVirtualTextInfo  guifg=#d0b57d
+hi DiagnosticVirtualTextHint  guifg=#8d9f6a
+hi DiagnosticVirtualTextOk    guifg=#ddddcc
+
+" Floating
+hi DiagnosticFloatingError guifg=#e05f5f
+hi DiagnosticFloatingWarn  guifg=#e6b450
+hi DiagnosticFloatingInfo  guifg=#d0b57d
+hi DiagnosticFloatingHint  guifg=#8d9f6a
+hi DiagnosticFloatingOk    guifg=#ddddcc
+
+" Sign column
+hi DiagnosticSignError guifg=#e05f5f guibg=grey20
+hi DiagnosticSignWarn  guifg=#e6b450 guibg=grey20
+hi DiagnosticSignInfo  guifg=#d0b57d guibg=grey20
+hi DiagnosticSignHint  guifg=#8d9f6a guibg=grey20
+hi DiagnosticSignOk    guifg=#ddddcc guibg=grey20
+
+" Underlines
+hi DiagnosticUnderlineError gui=undercurl guisp=#e05f5f
+hi DiagnosticUnderlineWarn  gui=undercurl guisp=#e6b450
+hi DiagnosticUnderlineInfo  gui=undercurl guisp=#d0b57d
+hi DiagnosticUnderlineHint  gui=undercurl guisp=#8d9f6a
+hi DiagnosticUnderlineOk    gui=undercurl guisp=#ddddcc
 
 
 " Telescope
