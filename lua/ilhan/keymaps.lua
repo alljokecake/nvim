@@ -28,3 +28,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("n", "<C-l>", ":vertical resize +4<CR>")
 vim.keymap.set("n", "<C-k>", ":resize +4<CR>")
 vim.keymap.set("n", "<C-j>", ":resize -4<CR>")
+
+-- Quickfix List
+vim.keymap.set("n", "<leader>fj", "<cmd>cnext<CR>")
+vim.keymap.set("n", "<leader>fk", "<cmd>cprev<CR>")
