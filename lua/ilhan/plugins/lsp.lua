@@ -130,6 +130,8 @@ return {
                 header = "",
                 prefix = "",
             },
+
+        vim.keymap.set("n", "<leader>vca", "<cmd>:lua vim.lsp.buf.code_action()<CR>")
         })
     end
 }
