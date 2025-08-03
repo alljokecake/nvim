@@ -1,20 +1,3 @@
--- return {
---     "neovim/nvim-lspconfig",
---     config = function()
---         require("lspconfig").rust_analyzer.setup{}
---     end
--- }
-local root_files = {
-  '.luarc.json',
-  '.luarc.jsonc',
-  '.luacheckrc',
-  '.stylua.toml',
-  'stylua.toml',
-  'selene.toml',
-  'selene.yml',
-  '.git',
-}
-
 return {
     "neovim/nvim-lspconfig",
     dependencies = {
@@ -50,7 +33,6 @@ return {
             ensure_installed = {
                 "lua_ls",
                 "rust_analyzer",
-                "gopls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -59,22 +41,6 @@ return {
                     }
                 end,
 
-                zls = function()
-                    local lspconfig = require("lspconfig")
-                    lspconfig.zls.setup({
-                        root_dir = lspconfig.util.root_pattern(".git", "build.zig", "zls.json"),
-                        settings = {
-                            zls = {
-                                enable_inlay_hints = true,
-                                enable_snippets = true,
-                                warn_style = true,
-                            },
-                        },
-                    })
-                    vim.g.zig_fmt_parse_errors = 0
-                    vim.g.zig_fmt_autosave = 0
-
-                end,
                 ["lua_ls"] = function()
                     local lspconfig = require("lspconfig")
                     lspconfig.lua_ls.setup {
@@ -121,6 +87,7 @@ return {
         })
 
         vim.diagnostic.config({
+            virtual_text = true,
             -- update_in_insert = true,
             float = {
                 focusable = false,
