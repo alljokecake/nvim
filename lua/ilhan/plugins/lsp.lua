@@ -98,7 +98,8 @@ return {
                 prefix = "",
             },
 
-        vim.keymap.set("n", "<leader>vca", "<cmd>:lua vim.lsp.buf.code_action()<CR>")
+        vim.keymap.set("n", "<leader>vca", "<cmd>:lua vim.lsp.buf.code_action()<CR>"),
+        vim.keymap.set("n", "<leader>fo", "<cmd>:lua vim.diagnostic.open_float()<CR>")
         })
     end
 }
