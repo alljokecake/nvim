@@ -11,7 +11,7 @@ let g:colors_name="pie"
 hi Normal	        guifg=White guibg=#242424
 hi NonText	        guifg=grey30
 
-hi SignColumn       guibg=grey20
+hi SignColumn       guibg=#242424
 
 hi LineNr           guifg=#c2bfa5
 hi CursorLineNr     guifg=#c2bfa5  gui=BOLD

@@ -1,7 +1,11 @@
 return {
     "theprimeagen/vim-be-good",
 
+    dependencies = {
+        "nvim-lua/plenary.nvim"
+    },
+
     config = function()
-        -- require("vim-be-good").setup()
     end
 }
+
