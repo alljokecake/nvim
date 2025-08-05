@@ -28,19 +28,19 @@ hi MoreMsg	        guifg=SeaGreen
 hi Search	        guibg=grey30 guifg=white
 hi SpecialKey	    guifg=yellowgreen
 hi Title	        guifg=indianred
-hi Visual	        gui=none guifg=#c2bfa5 guibg=olivedrab
+hi Visual	        gui=none guifg=white guibg=#875f5f
 hi MatchParen       guibg=grey30 guifg=#dfffdf
 hi Comment	        guifg=grey50
 hi Constant	        guifg=#81a85d gui=NONE
 hi String	        guifg=#81a85d gui=NONE
-hi Identifier	    guifg=#7db082 gui=NONE
+hi Identifier	    guifg=#81A2C7 gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
 hi Type		        guifg=#d17d54 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
 hi Directory        guifg=navajowhite
-hi Function         guifg=#7db082
+hi Function         guifg=#81A2C7
 hi QuickFixLine		guibg=#d17d54 guifg=navajowhite gui=NONE
 
 hi Pmenu            guifg=#FFFFFF guibg=grey14
@@ -93,15 +93,13 @@ hi DiagnosticUnderlineInfo  gui=undercurl guisp=#d0b57d
 hi DiagnosticUnderlineHint  gui=undercurl guisp=#8d9f6a
 hi DiagnosticUnderlineOk    gui=undercurl guisp=#ddddcc
 
-
-" Telescope
-hi link TelescopeNormal LineNr
-
 hi link @comment Comment
 hi link @comment.documentation Comment 
 hi link @comment.todo Todo 
 hi link @comment.error Todo 
 hi link @comment.warning Todo 
 hi link @comment.note Todo 
-
 hi @lsp.type.macro guifg=indianred gui=NONE
+
+" Telescope
+hi link TelescopeNormal LineNr
