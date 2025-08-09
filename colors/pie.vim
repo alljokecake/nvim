@@ -33,7 +33,7 @@ hi MatchParen       guibg=grey30 guifg=#dfffdf
 hi Comment	        guifg=grey50
 hi Constant	        guifg=#81a85d gui=NONE
 hi String	        guifg=#81a85d gui=NONE
-hi Identifier	    guifg=#81A2C7 gui=NONE
+hi Identifier	    guifg=#F3F2CC gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
 hi Type		        guifg=#d17d54 gui=NONE
