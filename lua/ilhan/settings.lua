@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 local options = {
   backup = false,
   clipboard = "unnamedplus",
@@ -21,6 +23,7 @@ local options = {
   expandtab = true,
   shiftwidth = 4,
   tabstop = 4,
+  softtabstop = 4,
   cursorline = false,
   numberwidth = 4,
   signcolumn = "no",
@@ -47,8 +50,3 @@ vim.cmd("set history=100")
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
-
-
-vim.g.mapleader = " "
-vim.api.nvim_set_keymap('n', '<leader>h', ':set hlsearch!<CR>', {noremap = true,
-silent = true}) 

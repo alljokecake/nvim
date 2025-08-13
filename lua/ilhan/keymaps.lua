@@ -15,8 +15,8 @@ function ToggleExplorer()
 endfun
 ]])
 
-vim.api.nvim_set_keymap('n', '<leader>E', ':Lexplore!<CR>', {noremap = true, silent = true}) 
-vim.api.nvim_set_keymap('n', '<leader>e', ':call ToggleExplorer()<CR>', {noremap = true, silent = true}) 
+vim.api.nvim_set_keymap('n', '<leader>E', ':Lexplore!<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>e', ':call ToggleExplorer()<CR>', {noremap = true, silent = true})
 
 
 -- Visual Remap
@@ -32,3 +32,6 @@ vim.keymap.set("n", "<C-j>", ":resize -4<CR>")
 -- Quickfix List
 vim.keymap.set("n", "<leader>fj", "<cmd>cnext<CR>")
 vim.keymap.set("n", "<leader>fk", "<cmd>cprev<CR>")
+
+-- Highlight Search
+vim.api.nvim_set_keymap("n", "<leader>h", ":set hlsearch!<CR>", {noremap = true, silent = true})
