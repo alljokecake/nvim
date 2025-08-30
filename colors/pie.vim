@@ -18,7 +18,7 @@ hi CursorLineNr     guifg=#c2bfa5  gui=BOLD
 hi CursorLine       guibg=grey30
 
 hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	    guibg=#c2bfa5 guifg=grey50 gui=none
+hi StatusLineNC	    guibg=none guifg=#c2bfa5 gui=none
 hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=black guibg=khaki
@@ -103,3 +103,8 @@ hi @lsp.type.macro guifg=indianred gui=NONE
 
 " Telescope
 hi link TelescopeNormal LineNr
+hi link TelescopePromptBorder Identifier
+hi link TelescopePromptTitle TelescopePromptBorder
+
+hi link TelescopePreviewBorder TelescopePromptBorder
+hi link TelescopePreviewTitle TelescopePromptBorder
