@@ -18,7 +18,7 @@ hi CursorLineNr     guifg=#c2bfa5  gui=BOLD
 hi CursorLine       guibg=grey30
 
 hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	    guibg=none guifg=#c2bfa5 gui=none
+hi StatusLineNC	    guibg=gray20 guifg=#c2bfa5 gui=none
 hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=black guibg=khaki
