@@ -34,4 +34,4 @@ vim.keymap.set("n", "<leader>fj", "<cmd>cnext<CR>")
 vim.keymap.set("n", "<leader>fk", "<cmd>cprev<CR>")
 
 -- Highlight Search
-vim.api.nvim_set_keymap("n", "<leader>h", ":set hlsearch!<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>h", ":noh <CR>", {noremap = true, silent = true})
