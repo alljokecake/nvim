@@ -14,11 +14,11 @@ hi NonText	        guifg=grey30
 hi SignColumn       guibg=#242424
 
 hi LineNr           guifg=#c2bfa5
-hi CursorLineNr     guifg=#c2bfa5  gui=BOLD
-hi CursorLine       guibg=grey30
+hi CursorLineNr     guifg=#c2bfa5  gui=NONE
+hi CursorLine       guibg=grey20
 
 hi StatusLine	    guibg=#c2bfa5 guifg=black gui=none
-hi StatusLineNC	    guibg=gray20 guifg=#c2bfa5 gui=none
+hi StatusLineNC	    guibg=gray30 guifg=white gui=none
 hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=black guibg=khaki
@@ -28,15 +28,15 @@ hi MoreMsg	        guifg=SeaGreen
 hi Search	        guibg=grey30 guifg=white
 hi SpecialKey	    guifg=yellowgreen
 hi Title	        guifg=indianred
-hi Visual	        gui=none guifg=white guibg=#875f5f
+hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=grey30 guifg=#dfffdf
 hi Comment	        guifg=grey50
-hi Constant	        guifg=#81a85d gui=NONE
-hi String	        guifg=#81a85d gui=NONE
+hi Constant	        guifg=#ebcca0 gui=NONE
+hi String	        guifg=#ebcca0 gui=NONE
 hi Identifier	    guifg=#F3F2CC gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
-hi Type		        guifg=#d17d54 gui=NONE
+hi Type		        guifg=#FAA166 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
 hi Directory        guifg=navajowhite

@@ -25,9 +25,9 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 
 
 -- Window Resizing
-vim.keymap.set("n", "<C-l>", ":vertical resize +4<CR>")
-vim.keymap.set("n", "<C-k>", ":resize +4<CR>")
-vim.keymap.set("n", "<C-j>", ":resize -4<CR>")
+vim.api.nvim_set_keymap('n', '<C-l>', ':vertical resize +4<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-k>', ':resize +4<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-j>', ':resize -4<CR>', {noremap = true, silent = true})
 
 -- Quickfix List
 vim.keymap.set("n", "<leader>fj", "<cmd>cnext<CR>")

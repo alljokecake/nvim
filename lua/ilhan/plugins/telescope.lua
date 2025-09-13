@@ -12,11 +12,11 @@ return {
             },
             pickers = {
                 find_files = {
-                    -- theme = "ivy",
+                    theme = "ivy",
                 },
-                live_grep = {
-                    --theme = "ivy",
-                },
+                -- live_grep = {
+                --     theme = "ivy",
+                -- },
             },
         })
 
