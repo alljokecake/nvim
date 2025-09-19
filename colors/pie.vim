@@ -29,7 +29,7 @@ hi Search	        guibg=grey30 guifg=white
 hi SpecialKey	    guifg=yellowgreen
 hi Title	        guifg=indianred
 hi Visual	        gui=none guifg=white guibg=#4c63ad
-hi MatchParen       guibg=grey30 guifg=#dfffdf
+hi MatchParen       guibg=grey40 guifg=#dfffdf
 hi Comment	        guifg=grey50
 hi Constant	        guifg=#ebcca0 gui=NONE
 hi String	        guifg=#ebcca0 gui=NONE
@@ -43,10 +43,10 @@ hi Directory        guifg=navajowhite
 hi Function         guifg=#81A2C7
 hi QuickFixLine		guibg=#d17d54 guifg=navajowhite gui=NONE
 
-hi Pmenu            guifg=#FFFFFF guibg=grey14
-hi PmenuSel         guifg=navajowhite guibg=olivedrab
+hi Pmenu            guifg=#FFFFFF guibg=gray30
+hi PmenuSel         guifg=#4c63ad guibg=white
 hi PmenuThumb       guibg=#cccccc
-hi PmenuSbar        guibg=grey12
+hi PmenuSbar        guibg=grey20
 
 hi NormalFloat    guibg=#1e1e1e
 hi FloatBorder    guibg=#242424 guifg=#cccccc
