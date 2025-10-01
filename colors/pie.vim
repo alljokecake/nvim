@@ -48,7 +48,7 @@ hi PmenuSel         guifg=#4c63ad guibg=white
 hi PmenuThumb       guibg=#cccccc
 hi PmenuSbar        guibg=grey20
 
-hi NormalFloat    guibg=#1e1e1e
+hi NormalFloat    guibg=#222222
 hi FloatBorder    guibg=#242424 guifg=#cccccc
 
 " Basic
