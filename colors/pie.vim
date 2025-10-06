@@ -66,11 +66,11 @@ hi DiagnosticDefaultHint  guifg=#8d9f6a
 hi DiagnosticDefaultOk    guifg=#ddddcc
 
 " Virtual Text
-hi DiagnosticVirtualTextError guifg=#e05f5f
-hi DiagnosticVirtualTextWarn  guifg=#e6b450
-hi DiagnosticVirtualTextInfo  guifg=#d0b57d
-hi DiagnosticVirtualTextHint  guifg=#8d9f6a
-hi DiagnosticVirtualTextOk    guifg=#ddddcc
+hi DiagnosticVirtualTextError guifg=#e05f5f guibg=#4a2a2a
+hi DiagnosticVirtualTextWarn guifg=#e6b450 guibg=#4a3e2a
+hi DiagnosticVirtualTextInfo guifg=#d0b57d guibg=#403628
+hi DiagnosticVirtualTextHint guifg=#8d9f6a guibg=#2e3326
+hi DiagnosticVirtualTextOk guifg=#ddddcc guibg=#3a3a36
 
 " Floating
 hi DiagnosticFloatingError guifg=#e05f5f
