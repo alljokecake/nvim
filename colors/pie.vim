@@ -55,42 +55,42 @@ hi FloatBorder    guibg=#242424 guifg=#cccccc
 hi DiagnosticError        guifg=#e05f5f
 hi DiagnosticWarn         guifg=#e6b450
 hi DiagnosticInfo         guifg=#d0b57d
-hi DiagnosticHint         guifg=#8d9f6a
+hi DiagnosticHint         guifg=#7ca1c0
 hi DiagnosticOk           guifg=#ddddcc
 
 " Default
 hi DiagnosticDefaultError guifg=#e05f5f
 hi DiagnosticDefaultWarn  guifg=#e6b450
 hi DiagnosticDefaultInfo  guifg=#d0b57d
-hi DiagnosticDefaultHint  guifg=#8d9f6a
+hi DiagnosticDefaultHint  guifg=#7ca1c0
 hi DiagnosticDefaultOk    guifg=#ddddcc
 
 " Virtual Text
 hi DiagnosticVirtualTextError guifg=#e05f5f guibg=#4a2a2a
 hi DiagnosticVirtualTextWarn guifg=#e6b450 guibg=#4a3e2a
 hi DiagnosticVirtualTextInfo guifg=#d0b57d guibg=#403628
-hi DiagnosticVirtualTextHint guifg=#8d9f6a guibg=#2e3326
+hi DiagnosticVirtualTextHint guifg=#7ca1c0 guibg=#2a3540
 hi DiagnosticVirtualTextOk guifg=#ddddcc guibg=#3a3a36
 
 " Floating
 hi DiagnosticFloatingError guifg=#e05f5f
 hi DiagnosticFloatingWarn  guifg=#e6b450
 hi DiagnosticFloatingInfo  guifg=#d0b57d
-hi DiagnosticFloatingHint  guifg=#8d9f6a
+hi DiagnosticFloatingHint  guifg=#7ca1c0
 hi DiagnosticFloatingOk    guifg=#ddddcc
 
 " Sign column
 hi DiagnosticSignError guifg=#e05f5f guibg=grey20
 hi DiagnosticSignWarn  guifg=#e6b450 guibg=grey20
 hi DiagnosticSignInfo  guifg=#d0b57d guibg=grey20
-hi DiagnosticSignHint  guifg=#8d9f6a guibg=grey20
+hi DiagnosticSignHint  guifg=#7ca1c0 guibg=grey20
 hi DiagnosticSignOk    guifg=#ddddcc guibg=grey20
 
 " Underlines
 hi DiagnosticUnderlineError gui=undercurl guisp=#e05f5f
 hi DiagnosticUnderlineWarn  gui=undercurl guisp=#e6b450
 hi DiagnosticUnderlineInfo  gui=undercurl guisp=#d0b57d
-hi DiagnosticUnderlineHint  gui=undercurl guisp=#8d9f6a
+hi DiagnosticUnderlineHint  gui=undercurl guisp=#7ca1c0
 hi DiagnosticUnderlineOk    gui=undercurl guisp=#ddddcc
 
 hi link @comment Comment
