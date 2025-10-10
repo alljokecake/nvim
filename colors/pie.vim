@@ -27,21 +27,23 @@ hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi Search	        guibg=grey30 guifg=white
 hi SpecialKey	    guifg=yellowgreen
-hi Title	        guifg=indianred
+hi Title	        guifg=#b16286 gui=NONE
 hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=grey40 guifg=#dfffdf
 hi Comment	        guifg=grey50
-hi Constant	        guifg=#ebcca0 gui=NONE
+hi Constant	        guifg=#ebcca0  gui=NONE
 hi String	        guifg=#ebcca0 gui=NONE
 hi Identifier	    guifg=#F3F2CC gui=NONE
 hi Statement	    guifg=khaki gui=NONE
 hi PreProc	        guifg=indianred gui=NONE
-hi Type		        guifg=#FAA166 gui=NONE
+" hi Type		        guifg=#FAA166 gui=NONE
+hi Type		        guifg=salmon gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
 hi Directory        guifg=navajowhite
 hi Function         guifg=#81A2C7
-hi QuickFixLine		guibg=#d17d54 guifg=navajowhite gui=NONE
+" hi QuickFixLine guifg=#7ca1c0 guibg=#2a3540 gui=BOLD
+hi QuickFixLine guifg=#d3869b guibg=#3a2631
 
 hi Pmenu            guifg=#FFFFFF guibg=gray30
 hi PmenuSel         guifg=#4c63ad guibg=white
@@ -99,7 +101,7 @@ hi link @comment.todo Todo
 hi link @comment.error Todo 
 hi link @comment.warning Todo 
 hi link @comment.note Todo 
-hi @lsp.type.macro guifg=indianred gui=NONE
+hi link @lsp.type.macro Title
 
 " Telescope
 hi link TelescopeNormal LineNr
