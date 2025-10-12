@@ -14,9 +14,9 @@ return {
                 find_files = {
                     theme = "ivy",
                 },
-                -- live_grep = {
-                --     theme = "ivy",
-                -- },
+                help_tags = {
+                    theme = "ivy",
+                },
             },
         })
 
