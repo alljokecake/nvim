@@ -106,7 +106,7 @@ return {
         -- Setup completion (only when cmp is loaded)
         local cmp = require('cmp')
         local cmp_select = { behavior = cmp.SelectBehavior.Select }
-        
+
         cmp.setup({
             snippet = {
                 expand = function(args)

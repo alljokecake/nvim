@@ -83,7 +83,7 @@ hi DiagnosticFloatingOk    guifg=#ddddcc
 
 " Sign column
 hi DiagnosticSignError guifg=#e05f5f guibg=grey20
-hi DiagnosticSignWarn  guifg=#e6b450 guibg=grey20
+hi DiagnosticSignWarn  guifg=#e6b450 guibg=NONE
 hi DiagnosticSignInfo  guifg=#d0b57d guibg=grey20
 hi DiagnosticSignHint  guifg=#7ca1c0 guibg=grey20
 hi DiagnosticSignOk    guifg=#ddddcc guibg=grey20
