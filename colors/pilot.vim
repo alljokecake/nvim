@@ -6,7 +6,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name="pie"
+let g:colors_name="pilot"
 
 hi Normal	        guifg=White guibg=#242424
 hi NonText	        guifg=grey30
@@ -35,15 +35,13 @@ hi Constant	        guifg=#ebcca0  gui=NONE
 hi String	        guifg=#ebcca0 gui=NONE
 hi Identifier	    guifg=#F3F2CC gui=NONE
 hi Statement	    guifg=khaki gui=NONE
-hi PreProc	        guifg=indianred gui=NONE
-" hi Type		        guifg=#FAA166 gui=NONE
+hi PreProc	        guifg=navajowhite gui=NONE
 hi Type		        guifg=salmon gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
 hi Directory        guifg=navajowhite
 hi Function         guifg=#81A2C7
-" hi QuickFixLine guifg=#7ca1c0 guibg=#2a3540 gui=BOLD
-hi QuickFixLine guifg=#d3869b guibg=#3a2631
+hi QuickFixLine guifg=#f2a766 guibg=#3a2a1f gui=BOLD
 
 hi Pmenu            guifg=#FFFFFF guibg=gray30
 hi PmenuSel         guifg=#4c63ad guibg=white

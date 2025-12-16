@@ -1,12 +1,12 @@
-vim.cmd("colorscheme pie")
+vim.cmd("colorscheme pilot")
 -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
 function ColorMyPencils()
-  vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-  vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
 vim.api.nvim_create_user_command("ColorMyPencils", function()
-  ColorMyPencils()
+    ColorMyPencils()
 end, {})
