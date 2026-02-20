@@ -13,13 +13,14 @@ return {
 
                 mappings = {
                     n = {
-                        ["<C-q>"] = function(prompt_bufnr)
+                        ["<C-s>"] = function(prompt_bufnr)
                             actions.smart_send_to_qflist(prompt_bufnr)
                             actions.open_qflist(prompt_bufnr)
-                        end
+                        end,
+                        ["go"] = "move_to_top",
                     },
                     i = {
-                        ["<C-q>"] = function(prompt_bufnr)
+                        ["<C-s>"] = function(prompt_bufnr)
                             actions.smart_send_to_qflist(prompt_bufnr)
                             actions.open_qflist(prompt_bufnr)
                         end
@@ -38,8 +39,7 @@ return {
 
         local builtin = require("telescope.builtin")
         vim.keymap.set('n', '<leader>p', builtin.find_files, {})
-        -- Replaced it with multigrep
-        vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+        vim.keymap.set('n', '<leader>th', builtin.help_tags, {})
 
         require "ilhan.telescope.multigrep".setup()
     end

@@ -48,7 +48,7 @@ local multigrep = function(opts)
 end
 
 M.setup = function()
-    vim.keymap.set("n", "<leader>fg", multigrep)
+    vim.keymap.set("n", "<leader>tg", multigrep)
 end
 
 return M

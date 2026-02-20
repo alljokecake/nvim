@@ -15,23 +15,33 @@ function ToggleExplorer()
 endfun
 ]])
 
-vim.api.nvim_set_keymap('n', '<leader>E', ':Lexplore!<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<leader>e', ':call ToggleExplorer()<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>E', ':Lexplore!<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>e', ':call ToggleExplorer()<CR>', { noremap = true, silent = true })
+
+-- Swap Ctrl-o and Ctrl-t in insert mode
+vim.keymap.set("i", "<C-t>", "<C-o>", { noremap = true, silent = true })
+vim.keymap.set("i", "<C-o>", "<C-t>", { noremap = true, silent = true })
 
 
 -- Visual Remap
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 
+-- Smoothest remap ever
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- Window Resizing
-vim.api.nvim_set_keymap('n', '<C-l>', ':vertical resize +4<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<C-k>', ':resize +4<CR>', {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<C-j>', ':resize -4<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-l>', ':vertical resize +4<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-k>', ':resize +4<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-j>', ':resize -4<CR>', { noremap = true, silent = true })
 
 -- Quickfix List
-vim.keymap.set("n", "<leader>fj", "<cmd>cnext<CR>")
-vim.keymap.set("n", "<leader>fk", "<cmd>cprev<CR>")
+vim.keymap.set("n", "<leader>tj", "<cmd>cnext<CR>")
+vim.keymap.set("n", "<leader>tk", "<cmd>cprev<CR>")
 
 -- Highlight Search
-vim.api.nvim_set_keymap("n", "<leader>h", ":noh <CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>h", ":noh <CR>", { noremap = true, silent = true })
+
+-- This is going to get me cancelled
+vim.keymap.set("i", "<C-c>", "<Esc>")

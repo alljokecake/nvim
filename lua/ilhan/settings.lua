@@ -1,3 +1,5 @@
+-- TODO: rewrite lol
+
 vim.g.mapleader = " "
 
 local options = {
@@ -18,7 +20,7 @@ local options = {
     swapfile = false,
     termguicolors = true,
     undofile = true,
-    updatetime = 300,
+    updatetime = 50,
     writebackup = false,
     expandtab = true,
     shiftwidth = 4,
@@ -51,3 +53,13 @@ vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
 vim.g.netrw_bufsettings = "noma nomod rnu nobl nowrap ro"
+
+
+-- Don't want any diagnostics on my statusline
+vim.o.statusline = table.concat {
+    "%<%f %h%w%m%r ",
+    "%=%{&showcmdloc=='statusline'?'%-10.S ':''}",
+    "%{exists('b:keymap_name')? '<'.b:keymap_name.'>':''}",
+    "%{&busy>0?'◐ ':''}",
+    "%-14.(%l,%c%V%) %P"
+}
