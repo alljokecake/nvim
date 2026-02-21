@@ -110,3 +110,5 @@ hi link TelescopePromptTitle TelescopePromptBorder
 
 hi link TelescopePreviewBorder TelescopePromptBorder
 hi link TelescopePreviewTitle TelescopePromptBorder
+
+hi MasonBackdrop guibg=#242424
