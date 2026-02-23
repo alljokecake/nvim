@@ -147,7 +147,7 @@ return {
             callback = function(ev)
                 local opts = { buffer = ev.buf }
                 vim.keymap.set("n", "<leader>vca", vim.lsp.buf.code_action, opts)
-                vim.keymap.set("n", "<leader>fo", vim.diagnostic.open_float, opts)
+                vim.keymap.set("n", "<leader>df", vim.diagnostic.open_float, opts)
                 -- Add more LSP keymaps here as needed
                 vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
                 vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
