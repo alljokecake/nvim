@@ -28,7 +28,7 @@ hi ColorColumn      guibg=grey16
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi SpecialKey	    guifg=yellowgreen
-hi Title	        guifg=#8daf67 gui=NONE
+hi Title	        guifg=#458588 gui=NONE
 hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=none guifg=#ff00af gui=bold
 hi Comment	        guifg=grey50
@@ -40,7 +40,7 @@ hi PreProc	        guifg=navajowhite gui=NONE
 hi Type		        guifg=#8daf67 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
-hi Directory        guifg=#b16286
+hi Directory        guifg=indianred
 hi Function         guifg=#81A2C7
 hi QuickFixLine guifg=#f2a766 guibg=#3a2a1f gui=BOLD
 
@@ -105,10 +105,11 @@ hi link @lsp.type.macro Title
 
 " Telescope
 hi link TelescopeNormal LineNr
-hi link TelescopePromptBorder Identifier
+hi link TelescopePromptBorder LineNr
 hi link TelescopePromptTitle TelescopePromptBorder
 
 hi link TelescopePreviewBorder TelescopePromptBorder
 hi link TelescopePreviewTitle TelescopePromptBorder
+hi link TelescopePromptPrefix Statement
 
 hi MasonBackdrop guibg=#242424
