@@ -8,7 +8,7 @@ endif
 
 let g:colors_name="pilot"
 
-hi Normal	        guifg=White guibg=#242424
+hi Normal	        guifg=#e3dede guibg=#242424
 hi NonText	        guifg=grey30
 
 hi SignColumn       guibg=#242424
@@ -23,12 +23,12 @@ hi StatusLineNC	    guibg=gray20 guifg=white gui=none
 hi WinSeparator	    guibg=none guifg=grey20 gui=none
 hi VertSplit	    guibg=none guifg=#c2bfa5 gui=bold
 hi IncSearch	    guifg=black guibg=khaki
-hi Search	        guibg=#7a6c82 guifg=NONE
+hi Search	        guibg=grey40 guifg=white
 hi ColorColumn      guibg=grey16
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi SpecialKey	    guifg=yellowgreen
-hi Title	        guifg=#458588 gui=NONE
+hi Title	        guifg=indianred gui=NONE
 hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=none guifg=#ff00af gui=bold
 hi Comment	        guifg=grey50
@@ -101,7 +101,7 @@ hi link @comment.todo Todo
 hi link @comment.error Todo 
 hi link @comment.warning Todo 
 hi link @comment.note Todo 
-hi link @lsp.type.macro Title
+hi link @lsp.type.macro Directory
 
 " Telescope
 hi link TelescopeNormal LineNr
@@ -110,6 +110,6 @@ hi link TelescopePromptTitle TelescopePromptBorder
 
 hi link TelescopePreviewBorder TelescopePromptBorder
 hi link TelescopePreviewTitle TelescopePromptBorder
-hi link TelescopePromptPrefix Statement
+hi link TelescopePromptPrefix Directory
 
 hi MasonBackdrop guibg=#242424

@@ -30,6 +30,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 -- Smoothest remap ever
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+vim.keymap.set("n", "G", "Gzz")
 
 -- Window Resizing
 vim.api.nvim_set_keymap('n', '<C-l>', ':vertical resize +4<CR>', { noremap = true, silent = true })
@@ -45,3 +46,5 @@ vim.api.nvim_set_keymap("n", "<leader>h", ":noh <CR>", { noremap = true, silent 
 
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
+vim.keymap.set("n", "<C-c>", "<Esc>", { noremap = true, silent = true })
+vim.keymap.set("n", "r<C-c>", "<Esc>", { noremap = true }) -- This kinda works
