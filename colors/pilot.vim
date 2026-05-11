@@ -14,8 +14,10 @@ hi NonText	        guifg=grey30
 hi SignColumn       guibg=#242424
 
 hi LineNr           guifg=grey50
-hi CursorLineNr     guifg=grey50  gui=none
+" hi CursorLineNr     guifg=grey50  gui=none
+hi CursorLineNr     guifg=#c97b63  gui=none
 hi CursorLine       guibg=#303030
+
 
 hi StatusLine	    guibg=gray45 guifg=white gui=none
 hi StatusLineNC	    guibg=gray20 guifg=white gui=none
@@ -28,7 +30,7 @@ hi ColorColumn      guibg=grey16
 hi ModeMsg	        guifg=goldenrod
 hi MoreMsg	        guifg=SeaGreen
 hi SpecialKey	    guifg=yellowgreen
-hi Title	        guifg=indianred gui=NONE
+hi Title	        guifg=#7ca1c0 gui=NONE
 hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=none guifg=#ff00af gui=bold
 hi Comment	        guifg=grey50
@@ -40,7 +42,9 @@ hi PreProc	        guifg=navajowhite gui=NONE
 hi Type		        guifg=#8daf67 gui=NONE
 hi Special	        guifg=navajowhite gui=NONE
 hi Todo             gui=NONE
-hi Directory        guifg=indianred
+" hi Directory        guifg=indianred
+hi Directory        guifg=#8daf67
+
 hi Function         guifg=#81A2C7
 hi QuickFixLine guifg=#f2a766 guibg=#3a2a1f gui=BOLD
 
@@ -110,6 +114,6 @@ hi link TelescopePromptTitle TelescopePromptBorder
 
 hi link TelescopePreviewBorder TelescopePromptBorder
 hi link TelescopePreviewTitle TelescopePromptBorder
-hi link TelescopePromptPrefix Directory
+hi link TelescopePromptPrefix CursorLineNr
 
 hi MasonBackdrop guibg=#242424
