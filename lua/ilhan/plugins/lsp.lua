@@ -1,3 +1,4 @@
+-- TODO: Remove Mason once LSPs/formatters are managed declaratively in flake.nix.
 return {
     "neovim/nvim-lspconfig",
     event = { "BufReadPre", "BufNewFile" }, -- Only load when editing files

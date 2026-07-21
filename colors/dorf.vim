@@ -1,12 +1,12 @@
-" TODO: Rewrite in lua.
-
 set background=dark
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name="pilot"
+" #7c6f64
+
+let g:colors_name="dorf"
 
 hi Normal	        guifg=#e3dede guibg=#242424
 hi NonText	        guifg=grey30
@@ -14,8 +14,7 @@ hi NonText	        guifg=grey30
 hi SignColumn       guibg=#242424
 
 hi LineNr           guifg=grey50
-" hi CursorLineNr     guifg=grey50  gui=none
-hi CursorLineNr     guifg=#c97b63  gui=none
+hi CursorLineNr     guifg=grey70  gui=bold
 hi CursorLine       guibg=#303030
 
 
@@ -34,15 +33,14 @@ hi Title	        guifg=#7ca1c0 gui=NONE
 hi Visual	        gui=none guifg=white guibg=#4c63ad
 hi MatchParen       guibg=none guifg=#ff00af gui=bold
 hi Comment	        guifg=grey50
-hi Constant	        guifg=#ebcca0  gui=NONE
-hi String	        guifg=#ebcca0 gui=NONE
-hi Identifier	    guifg=#F3F2CC gui=NONE
-hi Statement	    guifg=#FAA166 gui=NONE
+hi Constant	        guifg=#A89B90  gui=NONE
+hi String	        guifg=#A89B90 gui=NONE
+hi Identifier	    guifg=#f0f0bb gui=NONE
+hi Statement	    guifg=indianred gui=NONE
 hi PreProc	        guifg=navajowhite gui=NONE
 hi Type		        guifg=#8daf67 gui=NONE
-hi Special	        guifg=navajowhite gui=NONE
-hi Todo             gui=NONE
-" hi Directory        guifg=indianred
+hi Special	        guifg=#cdabcf gui=NONE
+hi Todo             guifg=#FFC900 gui=NONE
 hi Directory        guifg=#8daf67
 
 hi Function         guifg=#81A2C7
@@ -114,6 +112,6 @@ hi link TelescopePromptTitle TelescopePromptBorder
 
 hi link TelescopePreviewBorder TelescopePromptBorder
 hi link TelescopePreviewTitle TelescopePromptBorder
-hi link TelescopePromptPrefix CursorLineNr
+hi link TelescopePromptPrefix Directory
 
 hi MasonBackdrop guibg=#242424
