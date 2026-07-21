@@ -48,3 +48,6 @@ vim.api.nvim_set_keymap("n", "<leader>h", ":noh <CR>", { noremap = true, silent 
 vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "<C-c>", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("n", "r<C-c>", "<Esc>", { noremap = true }) -- This kinda works
+
+-- Dismiss pending <C-w> commands with Ctrl-C
+vim.keymap.set("n", "<C-w><C-c>", "<Esc>", { noremap = true })
