@@ -205,9 +205,9 @@ hi TelescopePromptBorder  guifg=#665c54
 hi TelescopePromptTitle   guifg=#665c54
 hi TelescopePreviewBorder guifg=#665c54
 hi TelescopePreviewTitle  guifg=#665c54
-hi TelescopeSelection    guibg=#3c3836
+hi TelescopeSelection guifg=#282828 guibg=#83a598
 
-hi! link TelescopeMatching    GruvboxBlue
+hi TelescopeMatching guifg=#d3869b
 hi! link TelescopePromptPrefix Directory
 
 " Diagnostics
