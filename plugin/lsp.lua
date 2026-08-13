@@ -1,5 +1,14 @@
 require("fidget").setup({})
 
+
+vim.lsp.enable({
+    "lua_ls",
+    "nixd",
+    "rust_analyzer",
+    "gopls",
+    "julials",
+})
+
 vim.diagnostic.config({
     virtual_text = true,
     float = {
@@ -21,28 +30,14 @@ vim.api.nvim_create_autocmd("LspAttach", {
         vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
         vim.keymap.set("n", "<leader>vca", vim.lsp.buf.code_action, opts)
         vim.keymap.set("n", "<leader>do", vim.diagnostic.open_float, opts)
+
+		local client = assert(vim.lsp.get_client_by_id(ev.data.client_id))
+		if client:supports_method('textDocument/completion') then
+			-- Optional: trigger autocompletion on EVERY keypress. May be slow!
+			local chars = {}; for i = 32, 126 do table.insert(chars, string.char(i)) end
+			client.server_capabilities.completionProvider.triggerCharacters = chars
+			vim.lsp.completion.enable(true, client.id, ev.buf, { autotrigger = true })
+		end
+
     end,
-})
-
-local cmp = require('cmp')
-local cmp_select = { behavior = cmp.SelectBehavior.Select }
-
-cmp.setup({
-    snippet = {
-        expand = function(args)
-            require('luasnip').lsp_expand(args.body)
-        end,
-    },
-    mapping = cmp.mapping.preset.insert({
-        ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
-        ['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
-        ['<C-y>'] = cmp.mapping.confirm({ select = true }),
-        ["<C-Space>"] = cmp.mapping.complete(),
-    }),
-    sources = cmp.config.sources({
-        { name = 'nvim_lsp' },
-        { name = 'luasnip' },
-    }, {
-        { name = 'buffer' },
-    }),
 })

@@ -253,6 +253,7 @@ end
 
 link("Operator", "Normal")
 
+
 hi("Identifier", {
   fg = p.blue,
 })
@@ -456,11 +457,7 @@ hi("TelescopePromptPrefix", {
 })
 
 -- Diagnostics
-
-hi("DiagnosticError", {
-  fg = p.diagnostic_error,
-})
-
+hi("DiagnosticError", { fg = p.diagnostic_error, })
 hi("DiagnosticWarn", { fg = p.diagnostic_warn, })
 hi("DiagnosticInfo", { fg = p.diagnostic_info, })
 hi("DiagnosticHint", { fg = p.diagnostic_hint, })

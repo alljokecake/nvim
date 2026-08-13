@@ -32,4 +32,4 @@ local builtin = require("telescope.builtin")
 vim.keymap.set('n', '<leader>p', builtin.find_files, {})
 vim.keymap.set('n', '<leader>th', builtin.help_tags, {})
 
-require("pde.plugins.telescope.multigrep").setup()
+require("pde.telescope.multigrep").setup()
