@@ -1,5 +1,6 @@
 require("fidget").setup({})
 
+-- FIXME: If formatter is not available then simply shut up
 require("conform").setup({
 	format_on_save = {
 		timeout_ms = 5000,
@@ -19,7 +20,7 @@ vim.lsp.enable({
 	"nixd",
 	"rust_analyzer",
 	"gopls",
-	"julials",
+	"jetls",
 })
 
 vim.diagnostic.config({
