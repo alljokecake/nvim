@@ -145,8 +145,8 @@ hi("Underlined", {
 })
 
 hi("StatusLine", {
-  fg = p.fg0,
-  bg = p.bg2,
+  fg = p.bg2,
+  bg = p.fg0,
 })
 
 hi("StatusLineNC", {
