@@ -55,8 +55,8 @@ vim.opt.splitright = true
 vim.opt.undofile = true
 
 -- Formatting
-vim.cmd("set fo-=t")
-vim.cmd("set fo+=q")
+vim.cmd "set fo-=t"
+vim.cmd "set fo+=q"
 
 -- Netrw
 vim.g.netrw_browse_split = 0
@@ -67,9 +67,9 @@ vim.g.netrw_bufsettings = "noma nomod rnu nobl nowrap ro"
 -- Statusline
 -- Don't show diagnostics on the statusline.
 vim.o.statusline = table.concat {
-    "%<%f %h%w%m%r ",
-    "%=%{&showcmdloc=='statusline'?'%-10.S ':''}",
-    "%{exists('b:keymap_name')? '<'.b:keymap_name.'>':''}",
-    "%{&busy>0?'◐ ':''}",
-    "%-14.(%l,%c%V%) %P",
+  "%<%f %h%w%m%r ",
+  "%=%{&showcmdloc=='statusline'?'%-10.S ':''}",
+  "%{exists('b:keymap_name')? '<'.b:keymap_name.'>':''}",
+  "%{&busy>0?'◐ ':''}",
+  "%-14.(%l,%c%V%) %P",
 }

@@ -11,4 +11,4 @@ set.breakindent = true
 
 -- Disable hard wrap
 set.textwidth = 0
-set.formatoptions:remove("t")
+set.formatoptions:remove "t"

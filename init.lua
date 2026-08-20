@@ -1,6 +1,6 @@
 vim.loader.enable()
 
-vim.cmd("colorscheme gruvbox")
+vim.cmd "colorscheme gruvbox"
 
-require("pde")
+require "pde"
 require("vim._core.ui2").enable()

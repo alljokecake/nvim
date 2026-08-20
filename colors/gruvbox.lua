@@ -1,9 +1,9 @@
 -- vim: set sw=2 ts=2 sts=2 et tw=80:
 
-vim.cmd("highlight clear")
+vim.cmd "highlight clear"
 
-if vim.fn.exists("syntax_on") == 1 then
-  vim.cmd("syntax reset")
+if vim.fn.exists "syntax_on" == 1 then
+  vim.cmd "syntax reset"
 end
 
 vim.o.background = "dark"
@@ -227,8 +227,8 @@ hi("Comment", {
 })
 
 hi("Todo", {
-  fg = p.aqua,
-  bold = true,
+  fg = p.gray,
+  bold = false,
 })
 
 hi("Error", {
@@ -238,21 +238,20 @@ hi("Error", {
   reverse = true,
 })
 
-for _, group in ipairs({
+for _, group in ipairs {
   "Statement",
   "Conditional",
   "Repeat",
   "Label",
   "Exception",
   "Keyword",
-}) do
+} do
   hi(group, {
     fg = p.red,
   })
 end
 
 link("Operator", "Normal")
-
 
 hi("Identifier", {
   fg = p.blue,
@@ -262,13 +261,13 @@ hi("Function", {
   fg = p.green,
 })
 
-for _, group in ipairs({
+for _, group in ipairs {
   "PreProc",
   "Include",
   "Define",
   "Macro",
   "PreCondit",
-}) do
+} do
   hi(group, {
     fg = p.aqua,
   })
@@ -403,7 +402,7 @@ hi("diffLine", {
 
 -- Spell
 
-if vim.fn.has("spell") == 1 then
+if vim.fn.has "spell" == 1 then
   hi("SpellCap", {
     undercurl = true,
     sp = p.red,
@@ -457,11 +456,11 @@ hi("TelescopePromptPrefix", {
 })
 
 -- Diagnostics
-hi("DiagnosticError", { fg = p.diagnostic_error, })
-hi("DiagnosticWarn", { fg = p.diagnostic_warn, })
-hi("DiagnosticInfo", { fg = p.diagnostic_info, })
-hi("DiagnosticHint", { fg = p.diagnostic_hint, })
-hi("DiagnosticOk", { fg = p.diagnostic_ok, })
+hi("DiagnosticError", { fg = p.diagnostic_error })
+hi("DiagnosticWarn", { fg = p.diagnostic_warn })
+hi("DiagnosticInfo", { fg = p.diagnostic_info })
+hi("DiagnosticHint", { fg = p.diagnostic_hint })
+hi("DiagnosticOk", { fg = p.diagnostic_ok })
 
 link("DiagnosticDefaultError", "DiagnosticError")
 link("DiagnosticDefaultWarn", "DiagnosticWarn")
