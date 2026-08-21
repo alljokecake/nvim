@@ -179,7 +179,7 @@ hi("Directory", {
 })
 
 hi("Title", {
-  fg = p.green,
+  fg = p.aqua,
 })
 
 hi("ErrorMsg", {
